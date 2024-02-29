@@ -70,7 +70,7 @@ o_S(3) <=
                        (i_D=x"1") )
                         else '0';
                         
-o_S(4) <= ((not i_D(3) and i_D(2) and not i_D(1)) or (not i_D(2) and not i_D(0) and i_D(1)) or (not i_D(3) and i_D(0)));
+o_S(4) <= ((not i_D(3) and i_D(2) and not i_D(1)) or (not i_D(2) and i_D(0) and not i_D(1)) or (not i_D(3) and i_D(0)));
 
 o_S(5) <=
             '1' when ( (i_D=x"1") or
